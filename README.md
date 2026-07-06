@@ -25,36 +25,15 @@ The Chroma vector database (`chroma_db/`) is a generated artifact and is exclude
 
 ```
 .
-├── notebooks/
-│   └── clean_tech_ai_assistant.ipynb   # Ingestion, vector store, RAG chain, reasoning, evaluation
+├── clean_tech_ai_assistant.ipynb
 ├── results/
 │   ├── 1.png
 │   ├── 2.png
 │   └── Figure_1.png                    # Evaluation / analysis plots
-├── reports/
-│   └── Report.pdf                      # Project write-up
+├── Report.pdf 
 ├── requirements.txt
 └── README.md
 ```
-
-## Getting started
-
-1. Clone the repository and create a virtual environment:
-
-   ```bash
-   git clone https://github.com/<your-username>/CleanTech-AI-Assistant.git
-   cd CleanTech-AI-Assistant
-   python3 -m venv .venv && source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
-
-2. Provide your clean-tech corpus and set any model/API configuration required by the notebook (e.g. a Llama 2 endpoint or local weights).
-
-3. Run the notebook to ingest documents, build the ChromaDB store, and query the assistant:
-
-   ```bash
-   jupyter notebook notebooks/clean_tech_ai_assistant.ipynb
-   ```
 
 ## Requirements
 
@@ -63,7 +42,6 @@ The Chroma vector database (`chroma_db/`) is a generated artifact and is exclude
 - A Llama 2 model (local weights or a hosted endpoint)
 - NumPy, pandas, scikit-learn, matplotlib, seaborn
 
-See `requirements.txt`.
 
 ## Author
 
